@@ -1,7 +1,7 @@
 # GhClimate_EDA
 Foundational exploratory data analysis (EDA) of climate data of Ghana since 1973, in jupyter lab environment. 
 
-This a foundational exploratoty data analysis (eda) of climate data of Ghana from 1973, as my first attempt at datascience. 
+This is a foundational exploratoty data analysis (eda) of climate data of Ghana from 1973, as my first attempt at datascience. 
 Data was obtained from open sources at https://www.ncdc.noaa.gov/cdo-web, inspired by the famous hottest month 
 Global Climate Report April 2019 (https://www.ncdc.noaa.gov/sotc/global/201904). The goal was to obtain from historical records 
 the hottest day, month, year and in what amounts in comparison with the conclusions reached in the global study among other facts.
