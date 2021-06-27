@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Monthly Mean Temperatures, Ghana</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.2.min.js" integrity="sha384-XypntL49z55iwGVUW4qsEu83zKL3XEcz0MjuGOQ9SlaaQ68X/g+k1FcioZi7oQAc" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="1da8be1a-f61f-4c39-946b-6fafea7769b0" data-root-id="1142"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1547">
+          {"c95860ec-c637-4fad-8ac0-88d799502337":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"1153"}],"center":[{"id":"1156"},{"id":"1160"},{"id":"1192"}],"height":400,"left":[{"id":"1157"}],"output_backend":"webgl","renderers":[{"id":"1181"},{"id":"1198"}],"sizing_mode":"fixed","title":{"id":"1143"},"toolbar":{"id":"1168"},"x_range":{"id":"1145"},"x_scale":{"id":"1149"},"y_range":{"id":"1147"},"y_scale":{"id":"1151"}},"id":"1142","subtype":"Figure","type":"Plot"},{"attributes":{"line_color":"tomato","line_width":3,"x":{"field":"__x__values"},"y":{"field":"TEMP_C"}},"id":"1179","type":"Line"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"tomato"},"line_alpha":{"value":0.1},"line_color":{"value":"tomato"},"size":{"value":8},"x":{"field":"__x__values"},"y":{"field":"TEMP_C"}},"id":"1197","type":"Scatter"},{"attributes":{},"id":"1187","type":"AllLabels"},{"attributes":{"axis_label":"Temperature \u00b0C","formatter":{"id":"1185"},"major_label_policy":{"id":"1184"},"ticker":{"id":"1158"}},"id":"1157","type":"LinearAxis"},{"attributes":{"line_alpha":0.1,"line_color":"tomato","line_width":3,"x":{"field":"__x__values"},"y":{"field":"TEMP_C"}},"id":"1180","type":"Line"},{"attributes":{"source":{"id":"1194"}},"id":"1199","type":"CDSView"},{"attributes":{},"id":"1145","type":"DataRange1d"},{"attributes":{},"id":"1165","type":"ResetTool"},{"attributes":{"data_source":{"id":"1177"},"glyph":{"id":"1179"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1180"},"view":{"id":"1182"}},"id":"1181","type":"GlyphRenderer"},{"attributes":{"data_source":{"id":"1194"},"glyph":{"id":"1196"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1197"},"view":{"id":"1199"}},"id":"1198","type":"GlyphRenderer"},{"attributes":{},"id":"1149","type":"LinearScale"},{"attributes":{"active_multi":null,"active_scroll":{"id":"1162"},"tools":[{"id":"1161"},{"id":"1162"},{"id":"1163"},{"id":"1164"},{"id":"1165"},{"id":"1166"},{"id":"1211"}]},"id":"1168","type":"Toolbar"},{"attributes":{"data":{"MONTH":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"TEMP_C":{"__ndarray__":"hetRuB7FO0D2KFyPwvU8QFK4HoXrET1AcT0K16PwPEDNzMzMzAw8QEjhehSuhzpAH4XrUbieOUAUrkfhelQ5QFK4HoXr0TlAPQrXo3C9OkB7FK5H4bo7QPYoXI/CdTtA","dtype":"float64","order":"little","shape":[12]},"__x__values":[0,1,2,3,4,5,6,7,8,9,10,11],"__x__values_original":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"selected":{"id":"1190"},"selection_policy":{"id":"1191"}},"id":"1177","type":"ColumnDataSource"},{"attributes":{"overlay":{"id":"1167"}},"id":"1163","type":"BoxZoomTool"},{"attributes":{"axis_label":"Month","formatter":{"id":"1175"},"major_label_policy":{"id":"1187"},"ticker":{"id":"1213"}},"id":"1153","type":"LinearAxis"},{"attributes":{"axis":{"id":"1153"},"grid_line_color":null,"ticker":null},"id":"1156","type":"Grid"},{"attributes":{"source":{"id":"1177"}},"id":"1182","type":"CDSView"},{"attributes":{},"id":"1210","type":"UnionRenderers"},{"attributes":{},"id":"1185","type":"BasicTickFormatter"},{"attributes":{"text":"Mean Monthly Temperatures, Ghana"},"id":"1143","type":"Title"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1167","type":"BoxAnnotation"},{"attributes":{},"id":"1191","type":"UnionRenderers"},{"attributes":{},"id":"1184","type":"AllLabels"},{"attributes":{},"id":"1209","type":"Selection"},{"attributes":{"click_policy":"hide","items":[{"id":"1193"}],"visible":false},"id":"1192","type":"Legend"},{"attributes":{"end":33,"start":21},"id":"1147","type":"Range1d"},{"attributes":{"code":"\n                                var labels = {0: 'Jan', 1: 'Feb', 2: 'Mar', 3: 'Apr', 4: 'May', 5: 'Jun', 6: 'Jul', 7: 'Aug', 8: 'Sep', 9: 'Oct', 10: 'Nov', 11: 'Dec'};\n                                return labels[tick];\n                                "},"id":"1175","type":"FuncTickFormatter"},{"attributes":{},"id":"1151","type":"LinearScale"},{"attributes":{"axis":{"id":"1157"},"dimension":1,"ticker":null},"id":"1160","type":"Grid"},{"attributes":{},"id":"1162","type":"WheelZoomTool"},{"attributes":{},"id":"1161","type":"PanTool"},{"attributes":{},"id":"1166","type":"HelpTool"},{"attributes":{},"id":"1164","type":"SaveTool"},{"attributes":{"data":{"MONTH":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"TEMP_C":{"__ndarray__":"hetRuB7FO0D2KFyPwvU8QFK4HoXrET1AcT0K16PwPEDNzMzMzAw8QEjhehSuhzpAH4XrUbieOUAUrkfhelQ5QFK4HoXr0TlAPQrXo3C9OkB7FK5H4bo7QPYoXI/CdTtA","dtype":"float64","order":"little","shape":[12]},"__x__values":[0,1,2,3,4,5,6,7,8,9,10,11],"__x__values_original":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"selected":{"id":"1209"},"selection_policy":{"id":"1210"}},"id":"1194","type":"ColumnDataSource"},{"attributes":{"callback":null,"mode":"vline","renderers":[{"id":"1181"}],"tooltips":"&lt;h5&gt; @{MONTH} &lt;/h5&gt;\n                             &lt;h5&gt; @{TEMP_C} \u00b0C &lt;/h5&gt;"},"id":"1211","type":"HoverTool"},{"attributes":{"fill_color":{"value":"tomato"},"line_color":{"value":"tomato"},"size":{"value":8},"x":{"field":"__x__values"},"y":{"field":"TEMP_C"}},"id":"1196","type":"Scatter"},{"attributes":{"label":{"value":" TEMP_C"},"renderers":[{"id":"1181"},{"id":"1198"}]},"id":"1193","type":"LegendItem"},{"attributes":{"ticks":[0,1,2,3,4,5,6,7,8,9,10,11]},"id":"1213","type":"FixedTicker"},{"attributes":{},"id":"1190","type":"Selection"},{"attributes":{},"id":"1158","type":"BasicTicker"}],"root_ids":["1142"]},"title":"Bokeh Application","version":"2.3.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1547').textContent;
+                  var render_items = [{"docid":"c95860ec-c637-4fad-8ac0-88d799502337","root_ids":["1142"],"roots":{"1142":"1da8be1a-f61f-4c39-946b-6fafea7769b0"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

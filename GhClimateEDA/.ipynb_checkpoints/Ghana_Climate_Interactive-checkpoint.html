@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Ghana Climate HTML file</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.2.min.js" integrity="sha384-XypntL49z55iwGVUW4qsEu83zKL3XEcz0MjuGOQ9SlaaQ68X/g+k1FcioZi7oQAc" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="6e2366d8-c155-494c-9589-cc45495e0757" data-root-id="1142"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1386">
+          {"e9f1a6a6-e61e-4046-93eb-0f8be4326dc3":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"1153"}],"center":[{"id":"1156"},{"id":"1160"},{"id":"1192"}],"height":400,"left":[{"id":"1157"}],"output_backend":"webgl","renderers":[{"id":"1181"},{"id":"1198"}],"sizing_mode":"fixed","title":{"id":"1143"},"toolbar":{"id":"1168"},"x_range":{"id":"1145"},"x_scale":{"id":"1149"},"y_range":{"id":"1147"},"y_scale":{"id":"1151"}},"id":"1142","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1162","type":"WheelZoomTool"},{"attributes":{"callback":null,"mode":"vline","renderers":[{"id":"1181"}],"tooltips":[["Month","@__x__values_original"],["TEMP_C","@{TEMP_C}"]]},"id":"1211","type":"HoverTool"},{"attributes":{},"id":"1165","type":"ResetTool"},{"attributes":{},"id":"1158","type":"BasicTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"tomato"},"line_alpha":{"value":0.1},"line_color":{"value":"tomato"},"size":{"value":8},"x":{"field":"__x__values"},"y":{"field":"TEMP_C"}},"id":"1197","type":"Scatter"},{"attributes":{"axis_label":"Month","formatter":{"id":"1175"},"major_label_policy":{"id":"1188"},"ticker":{"id":"1213"}},"id":"1153","type":"LinearAxis"},{"attributes":{"axis":{"id":"1157"},"dimension":1,"ticker":null},"id":"1160","type":"Grid"},{"attributes":{"fill_color":{"value":"tomato"},"line_color":{"value":"tomato"},"size":{"value":8},"x":{"field":"__x__values"},"y":{"field":"TEMP_C"}},"id":"1196","type":"Scatter"},{"attributes":{"active_multi":null,"active_scroll":{"id":"1162"},"tools":[{"id":"1161"},{"id":"1162"},{"id":"1163"},{"id":"1164"},{"id":"1165"},{"id":"1166"},{"id":"1211"}]},"id":"1168","type":"Toolbar"},{"attributes":{"axis":{"id":"1153"},"ticker":null},"id":"1156","type":"Grid"},{"attributes":{"source":{"id":"1194"}},"id":"1199","type":"CDSView"},{"attributes":{"data_source":{"id":"1194"},"glyph":{"id":"1196"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1197"},"view":{"id":"1199"}},"id":"1198","type":"GlyphRenderer"},{"attributes":{},"id":"1149","type":"LinearScale"},{"attributes":{},"id":"1151","type":"LinearScale"},{"attributes":{"line_color":"tomato","line_width":3,"x":{"field":"__x__values"},"y":{"field":"TEMP_C"}},"id":"1179","type":"Line"},{"attributes":{},"id":"1189","type":"UnionRenderers"},{"attributes":{},"id":"1145","type":"DataRange1d"},{"attributes":{"end":33,"start":21},"id":"1147","type":"Range1d"},{"attributes":{},"id":"1184","type":"BasicTickFormatter"},{"attributes":{"line_alpha":0.1,"line_color":"tomato","line_width":3,"x":{"field":"__x__values"},"y":{"field":"TEMP_C"}},"id":"1180","type":"Line"},{"attributes":{"overlay":{"id":"1167"}},"id":"1163","type":"BoxZoomTool"},{"attributes":{},"id":"1186","type":"AllLabels"},{"attributes":{"source":{"id":"1177"}},"id":"1182","type":"CDSView"},{"attributes":{"code":"\n                                var labels = {0: 'Jan', 1: 'Feb', 2: 'Mar', 3: 'Apr', 4: 'May', 5: 'Jun', 6: 'Jul', 7: 'Aug', 8: 'Sep', 9: 'Oct', 10: 'Nov', 11: 'Dec'};\n                                return labels[tick];\n                                "},"id":"1175","type":"FuncTickFormatter"},{"attributes":{},"id":"1164","type":"SaveTool"},{"attributes":{"label":{"value":" TEMP_C"},"renderers":[{"id":"1181"},{"id":"1198"}]},"id":"1193","type":"LegendItem"},{"attributes":{"click_policy":"hide","items":[{"id":"1193"}],"visible":false},"id":"1192","type":"Legend"},{"attributes":{},"id":"1166","type":"HelpTool"},{"attributes":{"data_source":{"id":"1177"},"glyph":{"id":"1179"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1180"},"view":{"id":"1182"}},"id":"1181","type":"GlyphRenderer"},{"attributes":{},"id":"1161","type":"PanTool"},{"attributes":{},"id":"1208","type":"UnionRenderers"},{"attributes":{},"id":"1188","type":"AllLabels"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1167","type":"BoxAnnotation"},{"attributes":{},"id":"1190","type":"Selection"},{"attributes":{},"id":"1209","type":"Selection"},{"attributes":{"data":{"TEMP_C":{"__ndarray__":"hetRuB7FO0D2KFyPwvU8QFK4HoXrET1AcT0K16PwPEDNzMzMzAw8QEjhehSuhzpAH4XrUbieOUAUrkfhelQ5QFK4HoXr0TlAPQrXo3C9OkB7FK5H4bo7QPYoXI/CdTtA","dtype":"float64","order":"little","shape":[12]},"__x__values":[0,1,2,3,4,5,6,7,8,9,10,11],"__x__values_original":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"selected":{"id":"1190"},"selection_policy":{"id":"1189"}},"id":"1177","type":"ColumnDataSource"},{"attributes":{"axis_label":"Temperature \u00b0C","formatter":{"id":"1184"},"major_label_policy":{"id":"1186"},"ticker":{"id":"1158"}},"id":"1157","type":"LinearAxis"},{"attributes":{"data":{"TEMP_C":{"__ndarray__":"hetRuB7FO0D2KFyPwvU8QFK4HoXrET1AcT0K16PwPEDNzMzMzAw8QEjhehSuhzpAH4XrUbieOUAUrkfhelQ5QFK4HoXr0TlAPQrXo3C9OkB7FK5H4bo7QPYoXI/CdTtA","dtype":"float64","order":"little","shape":[12]},"__x__values":[0,1,2,3,4,5,6,7,8,9,10,11],"__x__values_original":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"selected":{"id":"1209"},"selection_policy":{"id":"1208"}},"id":"1194","type":"ColumnDataSource"},{"attributes":{"text":"Mean Monthly Temperatures, Ghana"},"id":"1143","type":"Title"},{"attributes":{"ticks":[0,1,2,3,4,5,6,7,8,9,10,11]},"id":"1213","type":"FixedTicker"}],"root_ids":["1142"]},"title":"Bokeh Application","version":"2.3.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1386').textContent;
+                  var render_items = [{"docid":"e9f1a6a6-e61e-4046-93eb-0f8be4326dc3","root_ids":["1142"],"roots":{"1142":"6e2366d8-c155-494c-9589-cc45495e0757"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
