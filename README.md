@@ -1,4 +1,4 @@
-# GhClimate_EDA
+# ghana-temperature-climatology
 Foundational exploratory data analysis (EDA) of climate data of Ghana since 1973, in jupyter lab environment. 
 
 This is a foundational exploratoty data analysis (eda) of climate data of Ghana from 1973, as my first attempt at datascience. 
